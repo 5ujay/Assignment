@@ -43,7 +43,6 @@ function App() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7, delay: 0.2 }}
         >
-          {/* Flex row: Image Upload & Custom Form */}
           <div className="flex flex-col lg:flex-row gap-10">
             {/* Image Upload */}
             <div className="flex-1 rounded-xl shadow-xl p-8">
