@@ -1,12 +1,19 @@
-# React + Vite
+# 👕 POD T-Shirt Customizer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A single-page React app that allows users to customize their own Print-On-Demand (POD) T-shirts with image uploads, personalization options, and multiline text input. Built using **React**, **Vite**, **Tailwind CSS**, and **React Hook Form**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- 🎨 Customize T-shirt with:
+  - Height (default: `180cm`)
+  - Weight (default: `80kg`)
+  - Build Type (`lean`, `regular`, `athletic`, `big`)
+- 🖼️ Upload or drag-and-drop image
+- ✍️ Add up to 3 lines of custom text
+- 🎭 Theme switcher with `Alt + Q` (3 different themes)
+- ⚡ Built with `React + Vite + Tailwind CSS + React Hook Form`
+- 📱 Fully responsive
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
